@@ -1,0 +1,46 @@
+#ID-Score {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: 1550;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem
+}
+
+body {
+    background-color: rgba(121, 164, 255, 0.486);
+}
+
+#Question-Text-Above {
+    display: flex;
+    font-size: 3.5rem;
+    color: rgba(255, 255, 255, 0.829);
+    background: none;
+    bottom: 100px;
+    margin-top: 5rem;
+    justify-content: center;
+    justify-self: center;
+}
+
+#QuestionAnswerA,
+#QuestionAnswerB,
+#QuestionAnswerC,
+#QuestionAnswerD {
+    margin-top: 8.5rem;
+    font-size: 2.5rem;
+    border: 5px solid rgb(255, 255, 255);
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    color: white;
+}
+
+#QuestionSelf{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 2.5rem;
+}

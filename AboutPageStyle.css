@@ -1,0 +1,73 @@
+#About-page-Top {
+    font-family: 'Oswald';
+    font-size: 4.5vw;
+    justify-content: center;
+    display: flex;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+      color: white;
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      color: black;
+    }
+  }
+  
+  #About-page-Top {
+    animation: fadeIn .91s ease forwards;    
+}
+
+
+#First-body-text {
+    animation: fadeIn 1s ease .91s forwards;
+}
+
+#First-body-text-2 {
+    animation: fadeIn 1s ease 1.82s forwards;
+}
+
+#First-body-text{
+    opacity: 0;
+    color: white;
+    font-size: 2.4vw;
+    justify-content: center;
+    justify-self: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    display: block;
+}
+
+#First-body-text-2{
+    opacity: 0;
+    color: white;
+    font-size: 2.4vw;
+    justify-content: center;
+    justify-self: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    display: block;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.waving-emoji {
+    display: inline-block;
+    font-size: 3rem;
+    animation: wave 800ms ease-in-out infinite; 
+    transform-origin: bottom center;
+    margin-left: 70vw;
+    top: 0;
+    animation: fadeIn .91s ease forwards;
+}
+

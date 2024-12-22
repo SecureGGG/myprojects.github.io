@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(121, 164, 255, 0.486);
+}
+
+
+#StartButton,
+#Contact {
+    display: flex;
+    font-size: 2.92vw;
+    color: white;
+    background: none;
+    bottom: 5.21vh;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 18.52vh;
+    border: 0.46vh solid rgb(255, 255, 255);
+    text-shadow: 3px 3px black;
+    text-decoration: none;
+    box-shadow: 0.52vw 0.78vh 1.56vw rgba(0, 0, 0, 0.3);
+}
+
+#Last-Score {
+    display: flex;
+    font-size: 2.92vw;
+    color: white;
+    background: none;
+    bottom: 9.26vh;
+    justify-content: center;
+    justify-self: center;
+    
+}
+
+#body {
+    background-color: navajowhite;
+}
+
+#StartButton:hover,
+#Highscores:hover,
+#Contact:hover {
+    font-size: 3.12vw;
+}
+
